@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+seaborn
+torch
+torcheval
+torchinfo
+torchvision
+tqdm
+jupyterlab
+ipynb
+onnx
+git+https://github.com/eml-eda/plinio.git@main#egg=plinio
+git+https://github.com/eml-eda/pytorch-benchmarks.git@main#egg=pytorch_benchmarks
