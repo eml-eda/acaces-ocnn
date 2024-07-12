@@ -1,12 +1,12 @@
-# Optimized Execution of Neural Networks at the Edge 
+# Optimizing and Compiling Neural Networks for RISC-V Multi-Core Processors
 
-PhD Course - Computer Engineering - Politecnico di Torino
+ACACES Course 2024 - Politecnico di Torino
 
-**Authors**: Daniele Jahier Pagliari, Alessio Burrello
+**Authors**: Alessio Burrello, Daniele Jahier Pagliari
 
 ## Setup Instructions for Session #1
 
-The ideal environment for running the Python notebooks (for the first Hands-on Session) is a local instance of Jupyter Lab. However, you will need a GPU to run all steps in a reasonable time. If you do not have access to one, please follow the instructions to use Kaggle or Google Colab instead.
+The ideal environment for running the Python notebooks (for the first Hands-on Session) is a local instance of Jupyter Lab. However, you will need a GPU to run all steps in a reasonable time.
 
 ### Instructions for Local Jupyter Lab
 
@@ -60,22 +60,7 @@ http://localhost:58080/lab?token=<LONG_STRING>
 
 Simply take that URL and paste it in your browser, replacing `localhost` with the IP or hostname of the remote server. You should now see the Jupyter Lab Interface. Simply open the first notebook `I_SuperNet.ipynb` and follow the instructions.
 
+For the last hands_on, you need to download and import the following VM:
+https://www.dropbox.com/scl/fo/x02v103y3dyrk340khgir/AONLAM_ihyZQr_Dg6ipimqw?rlkey=1fhhbji4e6syc4iu8ha9q8uux&dl=0
 
-
-### Instructions for Kaggle
-
-To run the notebooks in **Kaggle**, first create an account and associate it with your phone number (required to enable Internet access and GPU usage, max 30h per week). Then, create a new Notebook, and select: `File/Import Notebook`. Drag and drop the ipynb file that you want to run (starting from `I_SuperNet.ipynb` in the upload window.
-
-Lastly in the right pane, under "Session Options", enable Internet by clicking on the toggle. Under "Accelerator", select "GPU P100".
-
-### Instructions for Google Colab
-
-To run the notebooks in **Google colab**, upload the corresponding `.ipynb` file to your Google Drive, then Right Click on it and select: `Open with/Google Colaboratory`.
-
-
-### Common Notes for Kaggle and Colab 
-
-If you're running on *either* Kaggle or Colab, the notebooks contain extra instructions and commands. Make sure to follow them.
-
-Moreover, beware that each notebook will run in a **separate environment** from the others. Since each of the notebooks uses the outputs from the previous ones, you will have to make sure that these files are accessible "by hand" (uploading them in the respective cloud folders and setting all paths appropriately). See the instructions in the notebooks.
-
+You need to execute the notebook internally to the VM.
